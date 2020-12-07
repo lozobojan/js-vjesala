@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Vješala</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1 class="text-center">Vješala JS</h1>
+    <hr>
+
+    <div class="float-right">Pogrešnih pokušaja: <span id="brGresaka">0</span> od <span id="maksBrGresaka">6</span> </div>
+
+    <div class="text-center">
+      <img src="./img/0.png" alt="" id="vjesalaSlika" >
+      <p id="oblastNaziv"></p>
+      <p id="trazenaRijec"></p>
+      <div id="tastatura"></div>
+      <button class="btn btn-info mt-3" onclick="reset()" >Igraj ponovo</button>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
