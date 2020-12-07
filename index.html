@@ -14,19 +14,28 @@
     <h1 class="text-center">Vješala JS</h1>
     <hr>
 
+    <!-- prikazujemo ucinak, tj koliko je pogresnih pokusaja od koliko mogucih -->
     <div class="float-right">Pogrešnih pokušaja: <span id="brGresaka">0</span> od <span id="maksBrGresaka">6</span> </div>
 
+    <!-- div u kome se nalazi cijela JS igra -->
     <div class="text-center">
+      <!-- slika koja prikazuje stanje na "vjesalima" -->
       <img src="./img/0.png" alt="" id="vjesalaSlika" >
+      <!-- naziv oblasti iz koje je pojam -->
       <p id="oblastNaziv"></p>
+      <!-- pojam tj. rijec koja se trazi -->
       <p id="trazenaRijec"></p>
+      <!-- dugmad za unos zeljenog slova -->
       <div id="tastatura"></div>
+      <!-- dugme za restart igrice -->
       <button class="btn btn-info mt-3" onclick="reset()" >Igraj ponovo</button>
     </div>
 
   </div>
 
+  <!-- JS kod igrice -->
   <script src="app.js"></script>
+  <!-- JS za JQuery i Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 </body>

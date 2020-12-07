@@ -1,4 +1,5 @@
 #trazenaRijec{
+	/* razmak izmedju svakog slova u rijeci */
 	letter-spacing: 10px;
 	font-size: 30px;
 }
